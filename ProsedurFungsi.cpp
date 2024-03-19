@@ -17,3 +17,8 @@ void input()
     cin >> nAir;
 }
 
+int hitungHarga()
+{
+    return (nTelor * hTelor) + (nMie * hMie) + (nAir * hAir);
+}
+
