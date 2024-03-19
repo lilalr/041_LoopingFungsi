@@ -31,3 +31,16 @@ void display()
     cout << "Total Harga Rp." << hitungHarga() << endl;
 }
 
+int main()
+{
+    char pilihan;
+    do
+    {
+        input();
+        display();
+
+        cout << "Apakah anda igin mengulangi (y/n) ? ";
+        cin >> pilihan;
+
+    } while (pilihan == 'y' || pilihan == 'Y');
+}
